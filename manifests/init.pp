@@ -1,6 +1,6 @@
 # Install PHPStorm
 class phpstorm (
-  $version = '8.0.1',
+  $version = '2016.1',
 ) {
   package { 'PhpStorm':
     ensure   => installed,
